@@ -1,9 +1,10 @@
+import Portfolio from "./Portfolio"
 
 function App() {
 
   return (
     <>
-      <div className="text-2xl">Hello</div>
+      <Portfolio/>
     </>
   )
 }

@@ -1,0 +1,146 @@
+/* ─── DATA ────────────────────────────────────────────────────────── */
+export const ME = {
+  name: "Krutika Jadhav",
+  contact: {
+    phone: "9167870113",
+    email: "jadhavkrutika467@gmail.com",
+    linkedin: "https://www.linkedin.com/in/-krutika",
+    location: "Thane, Maharashtra",
+  },
+  summary:
+    "Frontend Developer with 1+ year of experience building scalable, user-centric web apps in a product environment. Specialised in React.js, dynamic schema-driven forms, REST API integration, and high-performance UI.",
+  stats: [
+    { num: "1+", label: "Year Experience" },
+    { num: "1", label: "Product Company" },
+    { num: "15+", label: "Technologies" },
+    { num: "∞", label: "Curiosity" },
+  ],
+  experience: [
+    {
+      role: "Frontend / React Developer",
+      company: "Fyntune Solution Pvt Ltd",
+      location: "Turbhe, Navi Mumbai",
+      duration: "Jan 2025 – Present",
+      type: "Full Time",
+      points: [
+        "PHI (Prudential Health Insurance) sales platform for brokers & agents.",
+        "Reusable React components for onboarding, policy listing, comparison & checkout.",
+        "Dynamic schema-driven forms with backend-driven structure and validations.",
+        "Complex KYC workflows with conditional fields based on policy & customer data.",
+        "REST API integration for premium calc, onboarding, retrieval and issuance.",
+        "TanStack Query for caching, background refetching & reduced API calls.",
+        "Cross-functional collaboration with PMs, backend devs, designers & QA.",
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: "Product Management Dashboard",
+      year: "2024",
+      tech: ["React.js", "Tailwind CSS", "REST APIs", "React Hooks"],
+      desc: "Full-featured dashboard with CRUD, search, filtering, and dynamic table rendering.",
+      points: [
+        "Add, Edit, Delete, View products with REST API integration.",
+        "Search & filtering with dynamic table rendering.",
+        "Reusable React Hooks components with full responsiveness.",
+        "Cross-device compatible responsive design.",
+      ],
+    },
+  ],
+  skills: [
+    { label: "React.js", level: 90, color: "#61dafb" },
+    { label: "JavaScript ES6+", level: 88, color: "#f7df1e" },
+    { label: "TypeScript", level: 80, color: "#3178c6" },
+    { label: "Tailwind CSS", level: 88, color: "#38bdf8" },
+    { label: "Redux Toolkit", level: 80, color: "#764abc" },
+    { label: "TanStack Query", level: 85, color: "#ff4154" },
+    { label: "REST APIs", level: 87, color: "#06b6d4" },
+    { label: "Git / GitHub", level: 82, color: "#f05032" },
+  ],
+  techCloud: [
+    "React.js",
+    "JavaScript",
+    "TypeScript",
+    "Tailwind CSS",
+    "HTML5",
+    "CSS3",
+    "Redux Toolkit",
+    "Context API",
+    "TanStack Query",
+    "React Hook Form",
+    "REST APIs",
+    "Axios",
+    "React Router",
+    "Vite",
+    "Git",
+    "GitHub",
+    "npm",
+    "Jenkins",
+    "VS Code",
+  ],
+  skillCategories: [
+    { label: "State Management", items: ["Redux Toolkit", "Context API"] },
+    { label: "Forms & Data", items: ["TanStack Query", "React Hook Form"] },
+    { label: "Tools", items: ["Vite", "Git", "GitHub", "Jenkins", "VS Code"] },
+  ],
+  education: [
+    {
+      degree: "B.Sc. Computer Science",
+      college: "B.N. Bandodkar College of Science",
+      university: "University of Mumbai",
+      duration: "2021 – 2024",
+      grade: "CGPA 8.5 — A Grade",
+    },
+    {
+      degree: "HSC – Science",
+      college: "B.N. Bandodkar College of Science",
+      university: "Maharashtra State Board",
+      duration: "2020 – 2021",
+      grade: "",
+    },
+  ],
+  about: [
+    {
+      icon: "⚡",
+      title: "Performance First",
+      desc: "TanStack Query caching, code splitting, optimised renders.",
+    },
+    {
+      icon: "🧩",
+      title: "Reusable Systems",
+      desc: "Schema-driven forms, component libraries, design tokens.",
+    },
+    {
+      icon: "🔗",
+      title: "API Integration",
+      desc: "REST APIs, Axios, error handling, and state synchronisation.",
+    },
+    {
+      icon: "📱",
+      title: "Responsive UI",
+      desc: "Mobile-first Tailwind layouts that work on every screen.",
+    },
+  ],
+  contactItems: [
+    { icon: "✉️", label: "Email", key: "email" },
+    { icon: "☎️", label: "Phone", key: "phone" },
+    { icon: "💼", label: "LinkedIn", key: "linkedin" },
+    { icon: "📍", label: "Location", key: "location" },
+  ],
+};
+
+export const NAV = ["Home", "About", "Experience", "Skills", "Projects", "Contact"];
+export const TICKER = [
+  "React.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "REST APIs",
+  "Redux Toolkit",
+  "TanStack Query",
+  "Vite",
+  "Git",
+  "JavaScript ES6+",
+  "React Hook Form",
+  "Axios",
+  "Jenkins",
+];

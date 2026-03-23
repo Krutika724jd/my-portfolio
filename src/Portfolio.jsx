@@ -365,12 +365,12 @@ export default function Portfolio() {
         </div>
 
         {/* Giant name */}
-        <div className="mb-6">
+        <div className="mb-6  max-w-full overflow-hidden">
           <div className="hero-line mb-1">
             <span
-              className="slide-up font-syne font-black leading-[0.9] tracking-[-0.03em] grad-text-hero block"
+              className="slide-up font-syne font-black leading-[0.9] tracking-[-0.03em] grad-text-hero block text-[3.5rem] sm:text-[clamp(64px,12vw,130px)]"
               style={{
-                fontSize: "clamp(64px,12vw,130px)",
+                // fontSize: "clamp(64px,12vw,130px)",
                 animationDelay: "0.2s",
               }}
             >
@@ -379,9 +379,9 @@ export default function Portfolio() {
           </div>
           <div className="hero-line">
             <span
-              className="slide-up font-syne font-black leading-[0.9] tracking-[-0.03em] grad-text-vp block"
+              className="slide-up font-syne font-black leading-[0.9] tracking-[-0.03em] grad-text-vp block text-[3.3rem] sm:text-[clamp(64px,12vw,130px)]"
               style={{
-                fontSize: "clamp(64px,12vw,130px)",
+                // fontSize: "clamp(64px,12vw,130px)",
                 animationDelay: "0.3s",
               }}
             >
@@ -440,7 +440,7 @@ export default function Portfolio() {
           </div>
 
           {/* Stats grid */}
-          <div className="grid grid-cols-2 gap-3 flex-shrink-0">
+          <div className="grid grid-cols-2 gap-3">
             {ME.stats.map(({ num, label }) => (
               <div
                 key={label}
@@ -496,10 +496,10 @@ export default function Portfolio() {
           <SectionLabel num="01" text="About Me" />
           <div className="about-grid grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             {/* Left copy */}
-            <div>
+            <div className="overflow-hidden sm:overflow-none">
               <h2
-                className="font-syne font-black leading-[1.05] tracking-[-0.02em] mb-7"
-                style={{ fontSize: "clamp(36px,5vw,60px)" }}
+                className="font-syne font-black leading-[1.05] tracking-[-0.02em] mb-7  text-[clamp(36px,5vw,60px)]"
+                // style={{ fontSize: "clamp(36px,5vw,60px)" }}
               >
                 <span className="text-[#e2e0f0]">Crafting</span>
                 <br />
@@ -825,14 +825,17 @@ export default function Portfolio() {
         {/* ─── EDUCATION ─────────────────────────────────────────── */}
         <section className="py-24">
           <SectionLabel num="05" text="Education" />
+          <div className="overflow-hidden">
+
           <h2
-            className="font-syne font-black leading-[1.05] tracking-[-0.02em] mb-14"
-            style={{ fontSize: "clamp(36px,6vw,64px)" }}
+            className="font-syne font-black leading-[1.05] tracking-[-0.02em] mb-14 text-[clamp(36px,6vw,64px)]"
+            // style={{ fontSize: "clamp(36px,6vw,64px)" }}
           >
             <span className="grad-text">Academic</span>
             <br />
             <span className="text-[#e2e0f0]">Background.</span>
           </h2>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {ME.education.map((edu, i) => (
@@ -873,8 +876,8 @@ export default function Portfolio() {
 
           <div className="text-center mb-16">
             <h2
-              className="font-syne font-black leading-none tracking-[-0.03em] mb-5"
-              style={{ fontSize: "clamp(48px,8vw,96px)" }}
+              className="font-syne font-black leading-none tracking-[-0.03em] mb-5 text-[clamp(48px,8vw,96px)]"
+              // style={{ fontSize: "clamp(48px,8vw,96px)" }}
             >
               <span className="text-[#e2e0f0] block">Let's build</span>
               <span className="grad-text-vp block">together.</span>

@@ -79,7 +79,7 @@ export const ME = {
     "VS Code",
   ],
   skillCategories: [
-    { label: "State Management", items: ["Redux Toolkit", "Context API"] },
+    { label: "State Management", items: ["Redux Toolkit", "Context API","Zustand"] },
     { label: "Forms & Data", items: ["TanStack Query", "React Hook Form"] },
     { label: "Tools", items: ["Vite", "Git", "GitHub", "Jenkins", "VS Code"] },
   ],

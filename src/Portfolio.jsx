@@ -784,6 +784,14 @@ export default function Portfolio() {
                     <p className="text-sm text-gray-200 leading-[1.7] max-w-[500px]">
                       {proj.desc}
                     </p>
+                     <a
+                      href="https://productos-dashboard.netlify.app/dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-6 px-6 py-3 rounded-full border border-violet-400 text-violet-400 font-medium tracking-wide transition-all duration-300 hover:bg-violet-500 hover:text-white hover:shadow-lg hover:shadow-violet-500/30 hover:-translate-y-1"
+                      >
+                      View Project →
+</a>
                   </div>
                   <div className="flex flex-wrap gap-1.5 content-start max-w-[200px]">
                     {proj.tech.map((t) => (

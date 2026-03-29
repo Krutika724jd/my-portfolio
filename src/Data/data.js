@@ -36,8 +36,8 @@ export const ME = {
   projects: [
     {
       name: "Product Management Dashboard",
-      year: "2024",
-      tech: ["React.js", "Tailwind CSS", "REST APIs", "React Hooks"],
+      year: "2026",
+      tech: ["React.js", "Tailwind CSS", "React Router", "Redux","React Hooks"],
       desc: "Full-featured dashboard with CRUD, search, filtering, and dynamic table rendering.",
       points: [
         "Add, Edit, Delete, View products with REST API integration.",

@@ -8,10 +8,10 @@ export const ME = {
     location: "Thane, Maharashtra",
   },
   summary:
-    "Frontend Developer with 1+ year of experience building scalable, user-centric web apps in a product environment. Specialised in React.js, dynamic schema-driven forms, REST API integration, and high-performance UI.",
+    "Frontend Developer with 1.5 years of experience building scalable, user-centric web apps in a product environment. Specialised in React.js, dynamic schema-driven forms, REST API integration, and high-performance UI.",
   stats: [
-    { num: "1+", label: "Year Experience" },
-    { num: "1", label: "Product Company" },
+    { num: "1.5", label: "Year Experience" },
+    { num: "1.5", label: "Product Company" },
     { num: "15+", label: "Technologies" },
     { num: "∞", label: "Curiosity" },
   ],
